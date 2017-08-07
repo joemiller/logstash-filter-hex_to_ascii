@@ -1,6 +1,6 @@
 # Logstash Plugin
 
-[![Travis Build Status](https://travis-ci.org/pantheon-systems/logstash-filter-hex_to_ascii.svg)](https://travis-ci.org/pantheon-systems/logstash-filter-hex_to_ascii)
+[![Travis Build Status](https://travis-ci.org/joemiller/logstash-filter-hex_to_ascii.svg)](https://travis-ci.org/joemiller/logstash-filter-hex_to_ascii)
 
 This is a plugin for [Logstash](https://github.com/elastic/logstash).
 
