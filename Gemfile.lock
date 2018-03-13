@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    logstash-filter-hex_to_ascii (0.2.0)
+    logstash-filter-hex_to_ascii (0.2.1)
       logstash-core-plugin-api (>= 1.60, <= 2.99)
 
 GEM
@@ -85,7 +85,7 @@ GEM
     rack (1.6.6)
     rack-protection (1.5.5)
       rack
-    rake (12.3.0)
+    rake (12.0.0)
     rspec (3.7.0)
       rspec-core (~> 3.7.0)
       rspec-expectations (~> 3.7.0)
@@ -125,6 +125,7 @@ PLATFORMS
 DEPENDENCIES
   logstash-devutils (~> 1.0)
   logstash-filter-hex_to_ascii!
+  rake (~> 12.0.0)
 
 BUNDLED WITH
    1.15.3
