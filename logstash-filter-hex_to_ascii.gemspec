@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name = 'logstash-filter-hex_to_ascii'
-  s.version = '0.2.0'
+  s.version = '0.2.1'
   s.licenses = ['Apache-2.0']
   s.summary = 'Convert hex-encoded string fields to ASCII'
   s.description = 'Convert hex-encoded string fields to ASCII'
@@ -19,5 +19,5 @@ Gem::Specification.new do |s|
 
   # Gem dependencies
   s.add_runtime_dependency 'logstash-core-plugin-api', '>= 1.60', '<= 2.99'
-  s.add_development_dependency 'logstash-devutils', '~> 1.0'
+  s.add_development_dependency 'logstash-devutils'
 end
